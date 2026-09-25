@@ -1,5 +1,13 @@
 'use strict';
 
+// ----------------------------------------------------------------------------
+// CONFIGURATION
+// ----------------------------------------------------------------------------
+// Change this URL if you are hosting your own StreamStatus backend!
+// By default, this connects to the public read-only API provided by the community.
+const API_ENDPOINT = 'https://streamstatus.wupinyin.co.uk/api/streamers';
+// ----------------------------------------------------------------------------
+
 document.addEventListener('DOMContentLoaded', () => {
   const tbody = document.getElementById('streamers-tbody');
   const toggleOffline = document.getElementById('toggle-offline');
@@ -70,8 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Event listener for the checkbox
   toggleOffline.addEventListener('change', renderTable);
 
-  // Fetch the data from the new REST API
-  fetch('https://streamstatus.wupinyin.co.uk/api/streamers')
+  // Fetch the data from the REST API
+  fetch(API_ENDPOINT)
     .then(response => response.json())
     .then(streamers => {
       allStreamers = streamers;

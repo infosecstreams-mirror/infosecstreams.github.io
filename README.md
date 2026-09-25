@@ -17,8 +17,9 @@ This frontend completely decouples the UI from the backend data generation. It f
 
 Because this repository is a **GitHub Template**, you can instantly spin up your own customized version of the site!
 1. Click the green **"Use this template"** button at the top of the repository to create your own fork.
-2. Enable **GitHub Pages** in your repository settings (Settings -> Pages -> Deploy from a branch -> `main`).
-3. If you decide to host your own backend database API, simply edit `js/sort.js` and change the `API_ENDPOINT` constant at the top of the file to point to your new URL!
+2. **IMPORTANT**: Delete the `CNAME` file in your new repository. That file is specifically for our community domain and will break your GitHub pages if you leave it!
+3. Enable **GitHub Pages** in your repository settings (Settings -> Pages -> Deploy from a branch -> `main`).
+4. If you decide to host your own backend database API, simply edit `js/sort.js` and change the `API_ENDPOINT` constant at the top of the file to point to your new URL!
 
 ### Contributing / Updating
 

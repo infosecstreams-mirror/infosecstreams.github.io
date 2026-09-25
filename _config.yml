@@ -1,7 +1,7 @@
 theme: jekyll-theme-hacker
 title: InfoSec Streams
 description: "Live Cybersecurity Streams | Ethical Hacking | CTF Challenges | Security Training"
-url: "https://infosecstreams.wupinyin.co.uk"
+# The 'url' property is intentionally omitted so GitHub Pages auto-detects it for forks!
 author: InfoSecStreams Community
 twitter:
   username: infosecstreams

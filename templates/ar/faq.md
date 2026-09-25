@@ -22,11 +22,11 @@ InfoSec Streams هي قائمة يديرها المجتمع بنشاط لقنو�
 
 ## كيف يمكنني المساهمة في القائمة؟
 
-إذا كان لديك streamer جديد لإضافته أو لاحظت خطأً، فنحن نشجعك على المساهمة بالتعديلات، ويمكن ذلك عبر تقديم [طلب سحب](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls)، أو رفع [مشكلة](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues). شكرًا لك!
+إذا كان لديك streamer جديد لإضافته أو لاحظت خطأً، فنحن نشجعك على المساهمة بالتعديلات، ويمكن ذلك عبر تقديم [طلب سحب](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/pulls)، أو رفع [مشكلة](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/issues). شكرًا لك!
 
 ## من يتولى صيانة قائمة InfoSec Streams؟
 
-بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا GoProSlowYo. يتولى [GoProSlowYo](https://github.com/goproslowyo) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams-mirror/secinfo) و[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) و[هذا](https://github.com/infosecstreams-mirror/infosecstreams.github.io) المستودع.
+بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا GoProSlowYo. يتولى [GoProSlowYo](https://github.com/goproslowyo) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams-mirror/secinfo) و[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) و[هذا](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) المستودع.
 
 ## هل يمكنني الانضمام إلى n00bsec CTF Team ومجتمعه النابض بالحياة على Discord؟
 

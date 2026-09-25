@@ -22,11 +22,11 @@ Liste geniş bir yayıncı yelpazesini kapsasa da, kesinlikle eksiksiz değildir
 
 ## Listeye nasıl katkıda bulunabilirim?
 
-Eklemek istediğiniz yeni bir yayıncı varsa veya bir hata fark ettiyseniz, düzenleme katkısında bulunmanız teşvik edilir; bunu bir [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls) açarak veya bir [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues) bildirerek yapabilirsiniz. Teşekkürler!
+Eklemek istediğiniz yeni bir yayıncı varsa veya bir hata fark ettiyseniz, düzenleme katkısında bulunmanız teşvik edilir; bunu bir [pull request](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/pulls) açarak veya bir [issue](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/issues) bildirerek yapabilirsiniz. Teşekkürler!
 
 ## InfoSec Streams listesini kim yönetiyor?
 
-Proje [chadb_n00b](https://twitch.tv/chadb_n00b) tarafından başlatılmıştır ve şu anda GoProSlowYo tarafından sürdürülmektedir. [GoProSlowYo](https://github.com/goproslowyo), [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) ve [bu](https://github.com/infosecstreams-mirror/infosecstreams.github.io) deposundaki tüm golang kodunu yönetmektedir.
+Proje [chadb_n00b](https://twitch.tv/chadb_n00b) tarafından başlatılmıştır ve şu anda GoProSlowYo tarafından sürdürülmektedir. [GoProSlowYo](https://github.com/goproslowyo), [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) ve [bu](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) deposundaki tüm golang kodunu yönetmektedir.
 
 ## n00bsec CTF Team'e ve onun gelişen Discord topluluğuna katılabilir miyim?
 

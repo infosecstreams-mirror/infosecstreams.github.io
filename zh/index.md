@@ -53,7 +53,7 @@ Streamers that haven't had activity in the last month are moved to the [inactive
 
 ### 致谢
 
-这个项目是社区的努力，但 [GoProSlowYo](https://twitch.tv/goproslowyo)目前仍然保持着 [secinfo](https://github.com/infosecstreams-mirror/secinfo) 中的所有黄金代码， [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), and [this](https://github.com/infosecstreams-mirror/infosecstreams.github.io) 仓库.
+这个项目是社区的努力，但 [GoProSlowYo](https://twitch.tv/goproslowyo)目前仍然保持着 [secinfo](https://github.com/infosecstreams-mirror/secinfo) 中的所有黄金代码， [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), and [this](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) 仓库.
 
 显示 [chadb_n00b](https://twitch.tv/chadb_n00b) 用于启动和保持原始 [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) ！
 

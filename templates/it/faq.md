@@ -22,11 +22,11 @@ Sebbene la lista includa un'ampia gamma di streamer, non è in alcun modo esaust
 
 ## Come posso contribuire alla lista?
 
-Se hai un nuovo streamer da aggiungere o noti un errore, sei invitato a contribuire con delle modifiche, che puoi proporre aprendo una [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls) o segnalando un [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues). Grazie!
+Se hai un nuovo streamer da aggiungere o noti un errore, sei invitato a contribuire con delle modifiche, che puoi proporre aprendo una [pull request](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/pulls) o segnalando un [issue](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/issues). Grazie!
 
 ## Chi mantiene la lista di InfoSec Streams?
 
-Il progetto è stato avviato da [chadb_n00b](https://twitch.tv/chadb_n00b) ed è attualmente mantenuto da GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) attualmente mantiene tutto il codice golang in [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) e in [questo](https://github.com/infosecstreams-mirror/infosecstreams.github.io) repository.
+Il progetto è stato avviato da [chadb_n00b](https://twitch.tv/chadb_n00b) ed è attualmente mantenuto da GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) attualmente mantiene tutto il codice golang in [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) e in [questo](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) repository.
 
 ## Posso unirmi al n00bsec CTF Team e alla sua fiorente community su Discord?
 

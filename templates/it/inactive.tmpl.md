@@ -9,7 +9,7 @@ Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo me
 
 ### Crediti
 
-Questo progetto è uno sforzo della community ma [GoProSlowYo](https://twitch.tv/goproslowyo) attualmente mantiene tutto il codice golang in [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) e [questo](https://github.com/infosecstreams-mirror/infosecstreams.github.io) repository.
+Questo progetto è uno sforzo della community ma [GoProSlowYo](https://twitch.tv/goproslowyo) attualmente mantiene tutto il codice golang in [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) e [questo](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) repository.
 
 Un ringraziamento speciale a [chadb_n00b](https://twitch.tv/chadb_n00b) per aver avviato e mantenuto la [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) originale!
 

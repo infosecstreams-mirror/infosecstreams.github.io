@@ -22,11 +22,11 @@ InfoSec Streams, Information Security से संबंधित Twitch stream
 
 ## मैं सूची में योगदान कैसे दे सकता/सकती हूं?
 
-यदि आपके पास जोड़ने के लिए कोई नया streamer है या आपको कोई त्रुटि दिखाई देती है, तो आपको संपादन में योगदान देने के लिए प्रोत्साहित किया जाता है, जो [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls) भेजकर या [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues) दर्ज करके किया जा सकता है। धन्यवाद!
+यदि आपके पास जोड़ने के लिए कोई नया streamer है या आपको कोई त्रुटि दिखाई देती है, तो आपको संपादन में योगदान देने के लिए प्रोत्साहित किया जाता है, जो [pull request](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/pulls) भेजकर या [issue](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/issues) दर्ज करके किया जा सकता है। धन्यवाद!
 
 ## InfoSec Streams सूची का रखरखाव कौन करता है?
 
-यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), और [इस](https://github.com/infosecstreams-mirror/infosecstreams.github.io) repository में सभी golang code का रखरखाव करता है।
+यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), और [इस](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) repository में सभी golang code का रखरखाव करता है।
 
 ## क्या मैं n00bsec CTF Team और उसके संपन्न Discord community में शामिल हो सकता/सकती हूं?
 

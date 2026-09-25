@@ -22,11 +22,11 @@ InfoSec Streams 是一个由社区积极维护的信息安全相关 Twitch 直�
 
 ## 我该如何为列表做贡献？
 
-如果你有新的主播想要添加，或者发现了错误，欢迎贡献修改，你可以通过提交 [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls)、提出 [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues) 来实现。谢谢！
+如果你有新的主播想要添加，或者发现了错误，欢迎贡献修改，你可以通过提交 [pull request](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/pulls)、提出 [issue](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io/issues) 来实现。谢谢！
 
 ## 谁维护着 InfoSec Streams 列表？
 
-该项目由 [chadb_n00b](https://twitch.tv/chadb_n00b) 创立，目前由 GoProSlowYo 维护。[GoProSlowYo](https://github.com/goproslowyo) 目前维护着 [secinfo](https://github.com/infosecstreams-mirror/secinfo)、[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) 以及[本](https://github.com/infosecstreams-mirror/infosecstreams.github.io) 仓库中的所有 golang 代码。
+该项目由 [chadb_n00b](https://twitch.tv/chadb_n00b) 创立，目前由 GoProSlowYo 维护。[GoProSlowYo](https://github.com/goproslowyo) 目前维护着 [secinfo](https://github.com/infosecstreams-mirror/secinfo)、[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) 以及[本](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) 仓库中的所有 golang 代码。
 
 ## 我可以加入 n00bsec CTF Team 及其蓬勃发展的 Discord 社区吗？
 

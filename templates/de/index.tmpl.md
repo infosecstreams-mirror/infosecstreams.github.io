@@ -20,7 +20,7 @@ Fragen? Beiträge? Sonstiges? Bitte lese das [FAQ](/de/faq)!
 
 ### Danksagung
 
-Dieses Projekt ist ein Gemeinschaftsprojekt, aber [GoProSlowYo](https://twitch.tv/goproslowyo) verwaltet derzeit den gesamten Golang Code in den Repos [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) und [this](https://github.com/infosecstreams-mirror/infosecstreams.github.io).
+Dieses Projekt ist ein Gemeinschaftsprojekt, aber [GoProSlowYo](https://twitch.tv/goproslowyo) verwaltet derzeit den gesamten Golang Code in den Repos [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) und [this](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io).
 
 Ein großes Lob an [chadb_n00b](https://twitch.tv/chadb_n00b) für die Einrichtung und Pflege der ursprünglichen [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml)!
 

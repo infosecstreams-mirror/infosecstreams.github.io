@@ -9,7 +9,7 @@
 
 ### 致谢
 
-这是一个社区项目，但 [GoProSlowYo](https://twitch.tv/goproslowyo) 目前维护着 [secinfo](https://github.com/infosecstreams-mirror/secinfo)、[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) 和[本](https://github.com/infosecstreams-mirror/infosecstreams.github.io)仓库中的所有 golang 代码。
+这是一个社区项目，但 [GoProSlowYo](https://twitch.tv/goproslowyo) 目前维护着 [secinfo](https://github.com/infosecstreams-mirror/secinfo)、[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) 和[本](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io)仓库中的所有 golang 代码。
 
 特别感谢 [chadb_n00b](https://twitch.tv/chadb_n00b) 创建并维护原始的 [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml)！
 

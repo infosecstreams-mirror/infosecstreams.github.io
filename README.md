@@ -1,6 +1,6 @@
 # Infosec Streams List (UK Mirror)
 
-> **Notice regarding Apache 2.0 Compliance**: This repository is a modified fork of the original [infosecstreams/infosecstreams-mirror.github.io](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io). 
+> **Notice regarding Apache 2.0 Compliance**: This repository is a modified fork of the original [infosecstreams/infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io). 
 > 
 > Notable changes include:
 > - Addition of a Top 10 Streamer Leaderboard via Chart.js
@@ -25,4 +25,4 @@ Because this repository is a **GitHub Template**, you can instantly spin up your
 
 To add yourself to the community list, use our new dynamic API integration. We are working on a more frictionless onboarding process and will update this section once the process is finalized.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=infosecstreams/infosecstreams-mirror.github.io,infosecstreams-mirror/infosecstreams-mirror.github.io&type=Date)](https://star-history.com/#infosecstreams/infosecstreams-mirror.github.io&infosecstreams-mirror/infosecstreams-mirror.github.io&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=infosecstreams/infosecstreams.github.io,infosecstreams-mirror/infosecstreams.github.io&type=Date)](https://star-history.com/#infosecstreams/infosecstreams.github.io&infosecstreams-mirror/infosecstreams.github.io&Date)

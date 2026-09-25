@@ -15,11 +15,17 @@ This frontend completely decouples the UI from the backend data generation. It f
 
 ### Host Your Own!
 
-Because this repository is a **GitHub Template**, you can instantly spin up your own customized version of the site!
-1. Click the green **"Use this template"** button at the top of the repository to create your own fork.
-2. Enable **GitHub Pages** in your repository settings (Settings -> Pages -> Deploy from a branch -> `main`).
-3. If you decide to host your own backend database API, simply edit `js/sort.js` and change the `API_ENDPOINT` constant at the top of the file to point to your new URL!
-4. (Optional) If you have a custom domain, configure it in your GitHub Pages settings, which will automatically generate a `CNAME` file in your repository.
+**⚠️ IMPORTANT REPOSITORY CLARIFICATION:** 
+There are multiple repositories in this ecosystem:
+- **[infosecstreams-mirror/infosecstreams.github.io](https://github.com/infosecstreams-mirror/infosecstreams.github.io)** is the **Base Template Repository**. This is the one you must use to create your own site. 
+- **[infosecstreams-mirror/infosecstreams-mirror-uk-wupinyin](https://github.com/infosecstreams-mirror/infosecstreams-mirror-uk-wupinyin)** is the live production mirror. Do NOT try to use this one as a template!
+
+Because the template repository is configured as a **GitHub Template**, you can instantly spin up your own customized version of the site from the `main` branch!
+1. Navigate to the **[Template Repository](https://github.com/infosecstreams-mirror/infosecstreams.github.io)**.
+2. Click the green **"Use this template"** button at the top of the page to create your own fork.
+3. Enable **GitHub Pages** in your new repository's settings (Settings -> Pages -> Deploy from a branch -> `main`).
+4. If you decide to host your own backend database API, simply edit `js/sort.js` and change the `API_ENDPOINT` constant at the top of the file to point to your new URL!
+5. (Optional) If you have a custom domain, configure it in your GitHub Pages settings, which will automatically generate a `CNAME` file in your repository.
 
 ### Contributing / Updating
 

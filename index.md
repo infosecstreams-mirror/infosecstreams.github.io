@@ -34,6 +34,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
     </tbody>
   </table>
 </div>
+<div id="pagination-controls" style="margin-top: 15px; display: flex; justify-content: center; gap: 10px; align-items: center;"></div>
 
 ### Credits
 

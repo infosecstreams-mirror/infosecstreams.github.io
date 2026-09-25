@@ -11,11 +11,15 @@ const API_ENDPOINT = 'https://streamstatus.wupinyin.co.uk/api/streamers';
 document.addEventListener('DOMContentLoaded', () => {
   const tbody = document.getElementById('streamers-tbody');
   const toggleOffline = document.getElementById('toggle-offline');
+  const paginationControls = document.getElementById('pagination-controls');
   let allStreamers = [];
+  let currentPage = 1;
+  const itemsPerPage = 10;
 
   // Function to render the table rows based on the filter
   const renderTable = () => {
     tbody.innerHTML = '';
+    if (paginationControls) paginationControls.innerHTML = '';
     const showOffline = toggleOffline.checked;
     
     // Sort streamers: online first, then alphabetical
@@ -25,13 +29,26 @@ document.addEventListener('DOMContentLoaded', () => {
       return a.username.toLowerCase().localeCompare(b.username.toLowerCase());
     });
 
-    let count = 0;
-    sortedStreamers.forEach(streamer => {
-      if (!streamer.is_online && !showOffline) {
-        return; // Skip offline streamers if the toggle is unchecked
-      }
+    // Filter streamers
+    const displayStreamers = sortedStreamers.filter(streamer => {
+      if (!streamer.is_online && !showOffline) return false;
+      return true;
+    });
 
-      count++;
+    if (displayStreamers.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;">No streamers to display.</td></tr>';
+      return;
+    }
+
+    // Pagination math
+    const totalPages = Math.ceil(displayStreamers.length / itemsPerPage);
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const pageStreamers = displayStreamers.slice(startIndex, startIndex + itemsPerPage);
+
+    pageStreamers.forEach(streamer => {
       const tr = document.createElement('tr');
       
       // Status Column
@@ -70,13 +87,38 @@ document.addEventListener('DOMContentLoaded', () => {
       tbody.appendChild(tr);
     });
 
-    if (count === 0) {
-      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;">No streamers to display.</td></tr>';
+    // Render pagination controls
+    if (paginationControls && totalPages > 1) {
+      const prevBtn = document.createElement('button');
+      prevBtn.innerText = 'Previous';
+      prevBtn.disabled = currentPage === 1;
+      prevBtn.onclick = () => {
+        currentPage--;
+        renderTable();
+      };
+
+      const pageInfo = document.createElement('span');
+      pageInfo.innerText = `Page ${currentPage} of ${totalPages}`;
+
+      const nextBtn = document.createElement('button');
+      nextBtn.innerText = 'Next';
+      nextBtn.disabled = currentPage === totalPages;
+      nextBtn.onclick = () => {
+        currentPage++;
+        renderTable();
+      };
+
+      paginationControls.appendChild(prevBtn);
+      paginationControls.appendChild(pageInfo);
+      paginationControls.appendChild(nextBtn);
     }
   };
 
   // Event listener for the checkbox
-  toggleOffline.addEventListener('change', renderTable);
+  toggleOffline.addEventListener('change', () => {
+    currentPage = 1; // reset to first page when toggling
+    renderTable();
+  });
 
   // Fetch the data from the REST API
   fetch(API_ENDPOINT)

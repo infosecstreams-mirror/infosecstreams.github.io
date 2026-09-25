@@ -109,7 +109,7 @@ nameHeader.setAttribute('title', 'Sort by streamer name');
 nameHeader.setAttribute('role', 'button');
 
 // Asynchronously fetch live status payload from the data branch
-fetch('https://raw.githubusercontent.com/infosecstreams-mirror/infosecstreams-mirror.github.io/data/status.json')
+fetch('https://streamstatus.wupinyin.co.uk/api/status')
   .then(response => response.json())
   .then(statusData => {
     // Convert keys to lowercase for case-insensitive matching

@@ -119,7 +119,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw) &nbsp;
 `Gh0x00st` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gh0x00st) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Gh0x00st)
 `Goldwave__` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Goldwave__) &nbsp;
-`GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1)
+`DiscoMouse` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DiscoMouse) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1)
 `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp;
 `Gruntplay` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gruntplay) &nbsp;
 `Gyre_Security` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gyre_Security) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaKU8oiDXzYIUmBXHNv3DEg)
@@ -319,7 +319,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 
 ### क्रेडिट्स
 
-यह प्रोजेक्ट एक सामुदायिक प्रयास है लेकिन [GoProSlowYo](https://twitch.tv/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), और [इस](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) रेपो में सभी golang कोड को बनाए रखता है।
+यह प्रोजेक्ट एक सामुदायिक प्रयास है लेकिन [DiscoMouse](https://twitch.tv/DiscoMouse) वर्तमान में [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), और [इस](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) रेपो में सभी golang कोड को बनाए रखता है।
 
 मूल [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) को शुरू करने और बनाए रखने के लिए [chadb_n00b](https://twitch.tv/chadb_n00b) को विशेष धन्यवाद!
 

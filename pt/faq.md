@@ -26,7 +26,7 @@ Se você tem um novo streamer para adicionar ou encontrou um erro, você é ince
 
 ## Quem mantém a lista do InfoSec Streams?
 
-O projeto foi iniciado por [chadb_n00b](https://twitch.tv/chadb_n00b) e atualmente é mantido por GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) atualmente mantém todo o código golang em [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) e neste [repositório](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io).
+O projeto foi iniciado por [chadb_n00b](https://twitch.tv/chadb_n00b) e atualmente é mantido por DiscoMouse. [DiscoMouse](https://github.com/DiscoMouse) atualmente mantém todo o código golang em [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) e neste [repositório](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io).
 
 ## Posso entrar no n00bsec CTF Team e em sua próspera comunidade no Discord?
 

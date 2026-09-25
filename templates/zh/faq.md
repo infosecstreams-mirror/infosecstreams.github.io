@@ -26,7 +26,7 @@ InfoSec Streams 是一个由社区积极维护的信息安全相关 Twitch 直�
 
 ## 谁维护着 InfoSec Streams 列表？
 
-该项目由 [chadb_n00b](https://twitch.tv/chadb_n00b) 创立，目前由 GoProSlowYo 维护。[GoProSlowYo](https://github.com/goproslowyo) 目前维护着 [secinfo](https://github.com/infosecstreams-mirror/secinfo)、[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) 以及[本](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) 仓库中的所有 golang 代码。
+该项目由 [chadb_n00b](https://twitch.tv/chadb_n00b) 创立，目前由 DiscoMouse 维护。[DiscoMouse](https://github.com/DiscoMouse) 目前维护着 [secinfo](https://github.com/infosecstreams-mirror/secinfo)、[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) 以及[本](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) 仓库中的所有 golang 代码。
 
 ## 我可以加入 n00bsec CTF Team 及其蓬勃发展的 Discord 社区吗？
 

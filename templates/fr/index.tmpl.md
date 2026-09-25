@@ -20,7 +20,7 @@ Des questions ? Des contributions ? Autre chose ? Veuillez lire la [FAQ](/fr/faq
 
 ### Crédits
 
-Ce projet est un effort communautaire mais [GoProSlowYo](https://twitch.tv/goproslowyo) maintient actuellement tout le code golang dans [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), et [ce](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) dépôt.
+Ce projet est un effort communautaire mais [DiscoMouse](https://twitch.tv/DiscoMouse) maintient actuellement tout le code golang dans [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), et [ce](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) dépôt.
 
 Un grand merci à [chadb_n00b](https://twitch.tv/chadb_n00b) pour avoir lancé et maintenu la [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) originale !
 

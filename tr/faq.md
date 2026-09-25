@@ -26,7 +26,7 @@ Eklemek istediğiniz yeni bir yayıncı varsa veya bir hata fark ettiyseniz, dü
 
 ## InfoSec Streams listesini kim yönetiyor?
 
-Proje [chadb_n00b](https://twitch.tv/chadb_n00b) tarafından başlatılmıştır ve şu anda GoProSlowYo tarafından sürdürülmektedir. [GoProSlowYo](https://github.com/goproslowyo), [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) ve [bu](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) deposundaki tüm golang kodunu yönetmektedir.
+Proje [chadb_n00b](https://twitch.tv/chadb_n00b) tarafından başlatılmıştır ve şu anda DiscoMouse tarafından sürdürülmektedir. [DiscoMouse](https://github.com/DiscoMouse), [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) ve [bu](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) deposundaki tüm golang kodunu yönetmektedir.
 
 ## n00bsec CTF Team'e ve onun gelişen Discord topluluğuna katılabilir miyim?
 

@@ -26,7 +26,7 @@ InfoSec Streams هي قائمة يديرها المجتمع بنشاط لقنو�
 
 ## من يتولى صيانة قائمة InfoSec Streams؟
 
-بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا GoProSlowYo. يتولى [GoProSlowYo](https://github.com/goproslowyo) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams-mirror/secinfo) و[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) و[هذا](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) المستودع.
+بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا DiscoMouse. يتولى [DiscoMouse](https://github.com/DiscoMouse) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams-mirror/secinfo) و[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) و[هذا](https://github.com/infosecstreams-mirror/infosecstreams-mirror.github.io) المستودع.
 
 ## هل يمكنني الانضمام إلى n00bsec CTF Team ومجتمعه النابض بالحياة على Discord؟
 

@@ -22,11 +22,11 @@ Bien que la liste comprenne un large éventail de streamers, elle n’est en auc
 
 ## Comment puis-je contribuer à la liste ?
 
-Si vous avez un nouveau streamer à ajouter ou si vous repérez une erreur, vous êtes encouragé à contribuer des modifications, en soumettant une [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls) ou en ouvrant une [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues). Merci !
+Si vous avez un nouveau streamer à ajouter ou si vous repérez une erreur, vous êtes encouragé à contribuer des modifications, en soumettant une [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls) ou en ouvrant une [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues). Merci !
 
 ## Qui maintient la liste InfoSec Streams ?
 
-Le projet a été lancé par [chadb_n00b](https://twitch.tv/chadb_n00b) et est actuellement maintenu par GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) maintient actuellement tout le code golang des dépôts [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), et [celui-ci](https://github.com/infosecstreams/infosecstreams.github.io).
+Le projet a été lancé par [chadb_n00b](https://twitch.tv/chadb_n00b) et est actuellement maintenu par GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) maintient actuellement tout le code golang des dépôts [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), et [celui-ci](https://github.com/infosecstreams-mirror/infosecstreams.github.io).
 
 ## Puis-je rejoindre le n00bsec CTF Team et sa communauté Discord florissante ?
 
@@ -36,10 +36,7 @@ Absolument ! Le n00bsec CTF Team a une communauté dynamique et active sur un Di
 
 Si vous rencontrez des problèmes avec un lien ou si le site ne se met pas à jour correctement, vous pouvez le signaler sur le serveur (OSINT) ou ouvrir un problème sur la page GitHub.
 
-<script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/vendor/fontawesome.all.min.js"></script>

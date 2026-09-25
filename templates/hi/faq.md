@@ -22,11 +22,11 @@ InfoSec Streams, Information Security से संबंधित Twitch stream
 
 ## मैं सूची में योगदान कैसे दे सकता/सकती हूं?
 
-यदि आपके पास जोड़ने के लिए कोई नया streamer है या आपको कोई त्रुटि दिखाई देती है, तो आपको संपादन में योगदान देने के लिए प्रोत्साहित किया जाता है, जो [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls) भेजकर या [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues) दर्ज करके किया जा सकता है। धन्यवाद!
+यदि आपके पास जोड़ने के लिए कोई नया streamer है या आपको कोई त्रुटि दिखाई देती है, तो आपको संपादन में योगदान देने के लिए प्रोत्साहित किया जाता है, जो [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls) भेजकर या [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues) दर्ज करके किया जा सकता है। धन्यवाद!
 
 ## InfoSec Streams सूची का रखरखाव कौन करता है?
 
-यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), और [इस](https://github.com/infosecstreams/infosecstreams.github.io) repository में सभी golang code का रखरखाव करता है।
+यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus), और [इस](https://github.com/infosecstreams-mirror/infosecstreams.github.io) repository में सभी golang code का रखरखाव करता है।
 
 ## क्या मैं n00bsec CTF Team और उसके संपन्न Discord community में शामिल हो सकता/सकती हूं?
 
@@ -36,10 +36,7 @@ InfoSec Streams, Information Security से संबंधित Twitch stream
 
 यदि आपको किसी link में कोई समस्या दिखती है या site ठीक से अद्यतित नहीं हो रही है, तो आप इसे server पर रिपोर्ट कर सकते हैं (इसे OSINT कीजिए) या GitHub पेज पर एक issue खोल सकते हैं।
 
-<script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/vendor/fontawesome.all.min.js"></script>

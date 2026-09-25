@@ -1,25 +1,16 @@
-# Infosec Streams List
+# Infosec Streams List (UK Mirror)
 
-## Contributing / Updating
+> **Notice regarding Apache 2.0 Compliance**: This repository is a modified fork of the original [infosecstreams/infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io). 
+> 
+> Notable changes include:
+> - Addition of a Top 10 Streamer Leaderboard via Chart.js
+> - Modified GitHub Actions to persist analytics data 
+> - Full localization of third-party NPM dependencies
+> 
+> See `CHANGELOG.md` for a full list of modifications. Original copyright and the Apache 2.0 license remain intact and apply to the upstream source.
 
-TL;DR: To add or remove a streamer to the list please update `streamers.csv`.
+### Contributing / Updating
 
-### Pull Request Process
+As an alternative method to opening a pull request, we are working on a more frictionless onboarding process. We will update this section once the new process is finalized.
 
-1. Fork the repo in the Github UI or checkout the repo locally.
-
-1. Ensure you are update to date with the `main` branch and then create a branch for your edits:
-
-    `git checkout -b <your-branch>`
-
-1. Update streamers.csv with your additions and/or deletions.
-
-1. Commit and push:
-
-    `git add streamers.csv; git commit -m'My Change Description'; git push -u origin <your-branch-name>`
-
-1. [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) using the Github UI.
-
-Nota Bene: PRs with merge conflicts or that are out of date with main may not be merged/accepted (depending on how lazy we feel or how hard it is to fix 😝)
-
-[![Stargazers over time](https://starchart.cc/infosecstreams/infosecstreams.github.io.svg)](https://starchart.cc/infosecstreams/infosecstreams.github.io)
+[![Star History Chart](https://api.star-history.com/svg?repos=infosecstreams/infosecstreams.github.io,infosecstreams-mirror/infosecstreams.github.io&type=Date)](https://star-history.com/#infosecstreams/infosecstreams.github.io&infosecstreams-mirror/infosecstreams.github.io&Date)

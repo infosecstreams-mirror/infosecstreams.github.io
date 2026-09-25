@@ -60,7 +60,8 @@ jobs:
       - name: Full regen of English pages via secinfo
         if: steps.mode.outputs.full == 'true'
         run: |
-          docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv -v $PWD/inactive_streamers.csv:/app/inactive_streamers.csv ghcr.io/infosecstreams/secinfo:latest
+          touch active.json
+          docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv -v $PWD/inactive_streamers.csv:/app/inactive_streamers.csv -v $PWD/active.json:/app/active.json ghcr.io/infosecstreams/secinfo:latest
 
       - name: Extract streamer tables from English pages
         run: |
@@ -96,6 +97,13 @@ jobs:
             generate_lang_pages "$lang"
           done
 
+      - name: Update local vendor assets
+        run: |
+          npm install
+          mkdir -p js/vendor
+          cp node_modules/chart.js/dist/chart.umd.js js/vendor/
+          cp node_modules/@fortawesome/fontawesome-free/js/all.min.js js/vendor/fontawesome.all.min.js
+
       - name: Commit and push
         run: |
           git config user.name "${GITHUB_ACTOR}"
@@ -105,14 +113,14 @@ jobs:
           # Only commit when actual content changed. Without this guard the awk
           # lastmod stamp guarantees a churn commit (and a Pages build) on every
           # run, even a no-op one.
-          if ! git status --porcelain -- index.md inactive.md streamers.csv inactive_streamers.csv $LANG_DIRS | grep -q .; then
+          if ! git status --porcelain -- index.md inactive.md streamers.csv inactive_streamers.csv package.json package-lock.json js/vendor/ $LANG_DIRS | grep -q .; then
             echo "No content changes; skipping commit"
             exit 0
           fi
 
           awk -f .github/workflows/replace_lastmod_sort.awk sitemap.xml | tee sitemap_new.xml && mv sitemap_new.xml sitemap.xml
-          git add streamers.csv inactive_streamers.csv index.md inactive.md sitemap.xml $LANG_DIRS
-          git commit -am "🤖 Updated and sorted markdown files"
+          git add streamers.csv inactive_streamers.csv index.md inactive.md sitemap.xml active.json package.json package-lock.json js/vendor/ $LANG_DIRS
+          git commit -am "🤖 Updated files (content or dependencies)"
 
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then

@@ -22,11 +22,11 @@ Aunque la lista incluye una amplia variedad de streamers, de ninguna manera es e
 
 ## ¿Cómo puedo contribuir a la lista?
 
-Si tienes un nuevo streamer para agregar o detectas un error, te animamos a contribuir con ediciones, que puedes hacer mediante un [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), o abriendo un [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues). ¡Gracias!
+Si tienes un nuevo streamer para agregar o detectas un error, te animamos a contribuir con ediciones, que puedes hacer mediante un [pull request](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls), o abriendo un [issue](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues). ¡Gracias!
 
 ## ¿Quién mantiene la lista de InfoSec Streams?
 
-El proyecto fue iniciado por [chadb_n00b](https://twitch.tv/chadb_n00b) y actualmente lo mantiene GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) mantiene actualmente todo el código en golang de [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) y de [este](https://github.com/infosecstreams/infosecstreams.github.io) repositorio.
+El proyecto fue iniciado por [chadb_n00b](https://twitch.tv/chadb_n00b) y actualmente lo mantiene GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) mantiene actualmente todo el código en golang de [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) y de [este](https://github.com/infosecstreams-mirror/infosecstreams.github.io) repositorio.
 
 ## ¿Puedo unirme al n00bsec CTF Team y a su próspera comunidad de Discord?
 
@@ -36,10 +36,7 @@ El proyecto fue iniciado por [chadb_n00b](https://twitch.tv/chadb_n00b) y actual
 
 Si encuentras algún problema con un enlace o si el sitio no se actualiza correctamente, puedes reportarlo en el servidor (OSINT it) o abrir un problema en la página de GitHub.
 
-<script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/vendor/fontawesome.all.min.js"></script>

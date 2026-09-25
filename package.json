@@ -1,0 +1,25 @@
+{
+  "name": "infosecstreams.github.io",
+  "version": "1.0.0",
+  "description": "TL;DR: To add or remove a streamer to the list please update `streamers.csv`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infosecstreams-mirror/infosecstreams.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues"
+  },
+  "homepage": "https://github.com/infosecstreams-mirror/infosecstreams.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "chart.js": "^4.5.1"
+  }
+}

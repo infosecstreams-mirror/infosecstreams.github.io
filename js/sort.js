@@ -108,8 +108,50 @@ nameHeader.addEventListener('click', function (e) {
 nameHeader.setAttribute('title', 'Sort by streamer name');
 nameHeader.setAttribute('role', 'button');
 
-// Initially start in a sort by online state
-toggleOnlineSort(onlineHeader);
+// Asynchronously fetch live status payload from the data branch
+fetch('https://raw.githubusercontent.com/infosecstreams-mirror/infosecstreams.github.io/data/status.json')
+  .then(response => response.json())
+  .then(statusData => {
+    // Convert keys to lowercase for case-insensitive matching
+    const normalizedStatus = {};
+    for (const [key, val] of Object.entries(statusData)) {
+      normalizedStatus[key.toLowerCase()] = val;
+    }
+
+    // Hydrate the DOM
+    Array.from(table.rows).forEach(row => {
+      const nameCell = row.querySelector('td:nth-child(2)');
+      if (!nameCell) return;
+      
+      const streamerName = nameCell.innerText.trim().toLowerCase();
+      const statusCell = row.querySelector('td:nth-child(1)');
+      const status = normalizedStatus[streamerName];
+
+      if (status && status.online) {
+        statusCell.innerHTML = '🟢';
+        
+        // Optionally inject game/tags into the link title
+        const linkCell = row.querySelector('td:nth-child(3) a');
+        if (linkCell) {
+          const tags = status.tags ? status.tags.join(', ') : '';
+          linkCell.setAttribute('title', `${status.game}, Tags: ${tags}`);
+        }
+        
+        // Update language if provided
+        if (status.language) {
+          const langCell = row.querySelector('td:nth-child(4)');
+          if (langCell) langCell.innerText = status.language;
+        }
+      } else {
+        statusCell.innerHTML = '&nbsp;';
+      }
+    });
+  })
+  .catch(err => console.error('Failed to load status.json:', err))
+  .finally(() => {
+    // Trigger initial sort regardless of fetch success or failure
+    toggleOnlineSort(onlineHeader);
+  });
 
 /******************************************************************************
  *** Filtering

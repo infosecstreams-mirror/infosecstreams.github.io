@@ -22,11 +22,11 @@ InfoSec Streams هي قائمة يديرها المجتمع بنشاط لقنو�
 
 ## كيف يمكنني المساهمة في القائمة؟
 
-إذا كان لديك streamer جديد لإضافته أو لاحظت خطأً، فنحن نشجعك على المساهمة بالتعديلات، ويمكن ذلك عبر تقديم [طلب سحب](https://github.com/infosecstreams/infosecstreams.github.io/pulls)، أو رفع [مشكلة](https://github.com/infosecstreams/infosecstreams.github.io/issues). شكرًا لك!
+إذا كان لديك streamer جديد لإضافته أو لاحظت خطأً، فنحن نشجعك على المساهمة بالتعديلات، ويمكن ذلك عبر تقديم [طلب سحب](https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls)، أو رفع [مشكلة](https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues). شكرًا لك!
 
 ## من يتولى صيانة قائمة InfoSec Streams؟
 
-بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا GoProSlowYo. يتولى [GoProSlowYo](https://github.com/goproslowyo) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams/secinfo) و[streamstatus](https://github.com/infosecstreams/streamstatus) و[هذا](https://github.com/infosecstreams/infosecstreams.github.io) المستودع.
+بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا GoProSlowYo. يتولى [GoProSlowYo](https://github.com/goproslowyo) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams-mirror/secinfo) و[streamstatus](https://github.com/infosecstreams-mirror/streamstatus) و[هذا](https://github.com/infosecstreams-mirror/infosecstreams.github.io) المستودع.
 
 ## هل يمكنني الانضمام إلى n00bsec CTF Team ومجتمعه النابض بالحياة على Discord؟
 
@@ -36,10 +36,7 @@ InfoSec Streams هي قائمة يديرها المجتمع بنشاط لقنو�
 
 إذا واجهت أي مشكلات في أحد الروابط أو إذا لم يتم تحديث الموقع بشكل صحيح، يمكنك الإبلاغ عن ذلك على الخادم (OSINT it) أو فتح مشكلة على صفحة GitHub.
 
-<script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/vendor/fontawesome.all.min.js"></script>

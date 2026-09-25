@@ -22,11 +22,11 @@ Die Liste umfasst zwar eine breite Palette von Streamingdiensten, ist aber keine
 
 ## Wie kann ich mich an der Liste beteiligen?
 
-Wenn Sie einen neuen Streamer hinzufügen oder einen Fehler entdecken haben, sind Sie eingeladen, Änderungen beizutragen. Sie können dies tun, indem Sie einen [pull request] (https://github.com/infosecstreams/infosecstreams.github.io/pulls) stellen oder ein [issue] (https://github.com/infosecstreams/infosecstreams.github.io/issues) erstellen. Danke!
+Wenn Sie einen neuen Streamer hinzufügen oder einen Fehler entdecken haben, sind Sie eingeladen, Änderungen beizutragen. Sie können dies tun, indem Sie einen [pull request] (https://github.com/infosecstreams-mirror/infosecstreams.github.io/pulls) stellen oder ein [issue] (https://github.com/infosecstreams-mirror/infosecstreams.github.io/issues) erstellen. Danke!
 
 ## Wer pflegt die InfoSec Streams-Liste?
 
-Das Projekt wurde von [chadb_n00b](https://twitch.tv/chadb_n00b) gestartet und wird derzeit von [GoProSlowYo](https://www.twitch.tv/goproslowyo) betreut. [GoProSlowYo](https://github.com/goproslowyo) verwaltet derzeit den gesamten Golang-Code im [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) und [this](https://github.com/infosecstreams/infosecstreams.github.io) Repository.
+Das Projekt wurde von [chadb_n00b](https://twitch.tv/chadb_n00b) gestartet und wird derzeit von [GoProSlowYo](https://www.twitch.tv/goproslowyo) betreut. [GoProSlowYo](https://github.com/goproslowyo) verwaltet derzeit den gesamten Golang-Code im [secinfo](https://github.com/infosecstreams-mirror/secinfo), [streamstatus](https://github.com/infosecstreams-mirror/streamstatus) und [this](https://github.com/infosecstreams-mirror/infosecstreams.github.io) Repository.
 
 ## Kann ich dem n00bsec CTF-Team und seiner florierenden Discord-Community beitreten?
 
@@ -36,10 +36,7 @@ Absolut! Das n00bsec CTF Team hat eine lebendige und aktive Community auf einem 
 
 Wenn Sie Probleme mit einem Link haben oder die Seite nicht richtig aktualisiert wird, können Sie dies auf dem Server melden (OSINT it) oder ein Problem auf der GitHub-Seite öffnen.
 
-<script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/vendor/fontawesome.all.min.js"></script>

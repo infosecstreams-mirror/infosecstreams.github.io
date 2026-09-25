@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const paginationControls = document.getElementById('pagination-controls');
   let allStreamers = [];
   let currentPage = 1;
-  const itemsPerPage = 10;
+  const itemsPerPage = 25;
 
   // Function to render the table rows based on the filter
   const renderTable = () => {
@@ -117,7 +117,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Event listener for the checkbox
   toggleOffline.addEventListener('change', () => {
     currentPage = 1; // reset to first page when toggling
-    renderTable();
+    // Defer rendering to allow the switch animation to play smoothly
+    requestAnimationFrame(() => {
+      setTimeout(renderTable, 0);
+    });
   });
 
   // Fetch the data from the REST API

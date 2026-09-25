@@ -108,14 +108,19 @@ nameHeader.addEventListener('click', function (e) {
 nameHeader.setAttribute('title', 'Sort by streamer name');
 nameHeader.setAttribute('role', 'button');
 
-// Asynchronously fetch live status payload from the data branch
-fetch('https://streamstatus.wupinyin.co.uk/api/status')
+// Asynchronously fetch live status payload from the new REST API
+fetch('https://streamstatus.wupinyin.co.uk/api/streamers')
   .then(response => response.json())
-  .then(statusData => {
-    // Convert keys to lowercase for case-insensitive matching
+  .then(streamers => {
+    // Convert the array of streamers into a lowercase keyed map for fast DOM lookup
     const normalizedStatus = {};
-    for (const [key, val] of Object.entries(statusData)) {
-      normalizedStatus[key.toLowerCase()] = val;
+    for (const streamer of streamers) {
+      normalizedStatus[streamer.username.toLowerCase()] = {
+        online: streamer.is_online,
+        game: streamer.game,
+        language: streamer.language,
+        tags: streamer.tags
+      };
     }
 
     // Hydrate the DOM
@@ -147,7 +152,7 @@ fetch('https://streamstatus.wupinyin.co.uk/api/status')
       }
     });
   })
-  .catch(err => console.error('Failed to load status.json:', err))
+  .catch(err => console.error('Failed to load streamers from API:', err))
   .finally(() => {
     // Trigger initial sort regardless of fetch success or failure
     toggleOnlineSort(onlineHeader);

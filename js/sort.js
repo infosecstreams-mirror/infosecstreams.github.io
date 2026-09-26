@@ -127,7 +127,24 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch(API_ENDPOINT)
     .then(response => response.json())
     .then(streamers => {
-      allStreamers = streamers;
+      // Deduplicate streamers due to legacy casing issues in the backend DB.
+      // The newer records are always entirely lowercase.
+      const deduplicated = new Map();
+      streamers.forEach(streamer => {
+        const lowerName = streamer.username.toLowerCase();
+        const existing = deduplicated.get(lowerName);
+        
+        if (!existing) {
+          deduplicated.set(lowerName, streamer);
+        } else {
+          // If the new one is the lowercase one, or it's just newer, prefer it
+          // Since new backend inserts lowercase usernames, a strictly lowercase username is newer.
+          if (streamer.username === lowerName) {
+            deduplicated.set(lowerName, streamer);
+          }
+        }
+      });
+      allStreamers = Array.from(deduplicated.values());
       renderTable(); // Render initially (defaults to offline hidden)
     })
     .catch(err => {
